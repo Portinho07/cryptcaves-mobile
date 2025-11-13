@@ -12,7 +12,7 @@ export default function GetCrud(){
 
         try{
 
-            const getVal = await api.get(`/retorna_users`)
+            const getVal = await api.get(`/user`)
             console.log(getVal.data)
             setDados(getVal.data)
 

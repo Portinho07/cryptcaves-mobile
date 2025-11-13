@@ -19,6 +19,7 @@ export default function Cadastro() {
 
   async function Cadastrar() {
     try {
+      
       const userData = {
         name: nome,
         email: email,
