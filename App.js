@@ -8,7 +8,9 @@ import Login from "./pages/login";
 import Home from "./pages/home";
 import Cadastro from "./pages/cadastro";
 import Usuario from "./pages/usuario";
-import GetCrud from "./pages/crud/getcrud";
+import ChatList from "./pages/chatlist";
+import ChatRoom from "./pages/chatroom";
+import UpdateUser from "./pages/updateuser";
 
 
 const Stack = createDrawerNavigator();
@@ -25,8 +27,10 @@ export default function App() {
         <Stack.Screen name="Cadastro" component={Cadastro} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="ChatList" component={ChatList} />
+        <Stack.Screen name="ChatRoom" component={ChatRoom} />
+        <Stack.Screen name="UpdateUser" component={UpdateUser} />
         <Stack.Screen name="Usuario" component={Usuario} />
-        <Stack.Screen name="GetCrud" component={GetCrud} />
       </Stack.Navigator>
     </NavigationContainer>
 
